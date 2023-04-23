@@ -18,6 +18,25 @@ const HomeScreen = props => {
         onPress={() => navigation.navigate('Images')}
         title="Go to components Images"
       />
+      <Button
+        onPress={() => navigation.navigate('Counter')}
+        title="Go to component Counter"
+      />
+
+      <Button
+        onPress={() => navigation.navigate('Color')}
+        title="Go to component Color"
+      />
+
+      <Button
+        onPress={() => navigation.navigate('Square')}
+        title="Go to component Square"
+      />
+
+      <Button
+        onPress={() => navigation.navigate('Text')}
+        title="Go to component Text"
+      />
     </View>
   );
 };
